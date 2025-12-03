@@ -5,9 +5,9 @@ date: 2025-12-03 17:06 +0100
 categories: [Projects, Sobrassada Engine]
 ---
 
-This task focused on creating a system to store engine class functions without requiring a direct reference to the class. The goal was to be able to store multiple function calls and dispatch them when needed.
+This task focused on creating a system to **store** engine **class functions without** requiring a **direct reference** to the class. The goal was to be able to store multiple function calls and dispatch them when needed.
 
-To accomplish this, we implemented the `Delegate` class, which utilizes C++ templates and the `functional` library. One of the key use cases where this approach proved valuable was in handling the on-collision events of the collider components, allowing for flexible and decoupled event handling.
+To accomplish this, we implemented the `Delegate` class, which utilizes C++ templates and the `functional` library. One of the key use cases where this approach proved valuable was in handling the **on-collision events** of the **collider components**, allowing for flexible and decoupled event handling.
 
 Delegate class:
 ```cpp

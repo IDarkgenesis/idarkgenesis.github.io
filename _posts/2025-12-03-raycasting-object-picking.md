@@ -7,11 +7,11 @@ categories: [Projects, Sobrassada Engine]
 
 ![Object Picking](/assets/images/SobrassadaEngine/objectPicking.gif)
 
-The goal of this task was to enable the selection of objects placed in the scene, making it easier to design levels and modify game objects.
+The goal of this task was to enable the **selection of objects** placed in the scene, making it easier to design levels and modify game objects.
 
-To achieve this, we cast a ray in world space, originating from the user's click position on the window and using the camera matrix to define its direction.
+To achieve this, we **cast a ray in world space**, originating from the user's *click position* on the window and using the **camera matrix** to define its direction.
 
-Next, we query the game objects within the tree nodes that the ray intersects. For each object whose AABB (Axis-Aligned Bounding Box) collides with the ray, we transform the ray into the object’s local space. The ray is then tested against each triangle in the object’s mesh, keeping track of the closest intersection and returning the selected game object.
+Next, we **query** the **game objects within** the **tree nodes** that the ray intersects. **For each** object whose **AABB** (Axis-Aligned Bounding Box) **collides** with the ray, we **transform the ray** into the **object’s local space**. The ray is then tested against each triangle in the object’s mesh, keeping track of the closest intersection and returning the selected game object.
 
 To handle raycasting, we created a ``Raycast controller`` using templates. In later tasks, raycasting to the physics world was also integrated.
 
