@@ -3,6 +3,7 @@ layout: post
 title: Tuple for component storage
 date: 2025-12-03 20:35 +0100
 categories: [Projects, Sobrassada Engine]
+tags: [c++, engine]
 ---
 
 Game object components use **polymorphism** and were originally stored in a map, with an **enum** representing their type and a `Component*`. The problem with this approach was that making specific calls to retrieve the correct component pointer required **dynamic casting**, which introduced **performance overhead**. To eliminate this overhead, I changed the storage for components to use **tuples** instead.

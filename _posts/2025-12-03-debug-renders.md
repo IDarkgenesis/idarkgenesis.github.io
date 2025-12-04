@@ -3,6 +3,7 @@ layout: post
 title: Debug renders
 date: 2025-12-03 17:57 +0100
 categories: [Projects, Sobrassada Engine]
+tags: [c++, engine, opengl, rendering] 
 ---
 
 ![DebugRenderImage](/assets/images/SobrassadaEngine/debugRender.png)

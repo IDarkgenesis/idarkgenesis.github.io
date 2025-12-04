@@ -3,6 +3,7 @@ layout: post
 title: Delegates & Event dispatchers
 date: 2025-12-03 17:06 +0100
 categories: [Projects, Sobrassada Engine]
+tags: [c++, engine]
 ---
 
 This task focused on creating a system to **store** engine **class functions without** requiring a **direct reference** to the class. The goal was to be able to store multiple function calls and dispatch them when needed.

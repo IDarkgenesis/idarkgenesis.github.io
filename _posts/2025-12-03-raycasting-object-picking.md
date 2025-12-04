@@ -3,6 +3,7 @@ layout: post
 title: Raycasting & object picking
 date: 2025-12-03 16:44 +0100
 categories: [Projects, Sobrassada Engine]
+tags: [c++, engine] 
 ---
 
 ![Object Picking](/assets/images/SobrassadaEngine/objectPicking.gif)

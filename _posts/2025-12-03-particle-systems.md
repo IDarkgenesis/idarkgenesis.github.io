@@ -3,13 +3,14 @@ layout: post
 title: Particle systems
 date: 2025-12-03 21:10 +0100
 categories: [Projects, Sobrassada Engine]
+tags: [c++, engine, opengl, rendering]
 ---
 
 ![particleSystems](/assets/images/SobrassadaEngine/firePS.gif)
 
-**Particle systems** also make use of **OpenGL** for **instancing**, and similar to billboards, they are a **shared resource** between **Particle System components**. Thanks to instancing, the number of **draw calls** for each resource-based particle system is determined by the number of **unique emitters**, not the number of instances of particles, optimizing **performance**. This feature has been constantly **iterated upon** throughout the project, with fixes and new features added based on feedback from artists using it.
+[**Particle systems**](https://github.com/TheCenturiaGames/Sobrassada_Engine/blob/main/SobrassadaEngine/Utils/Particles/ParticleSystem.h) also make use of **OpenGL** for **instancing**, and similar to billboards, they are a **shared resource** between [**Particle System components**](https://github.com/TheCenturiaGames/Sobrassada_Engine/blob/main/SobrassadaEngine/Scene/Components/ParticleSystemComponent.h). Thanks to instancing, the number of **draw calls** for each resource-based particle system is determined by the number of **unique emitters**, not the number of instances of particles, optimizing **performance**. This feature has been constantly **iterated upon** throughout the project, with fixes and new features added based on feedback from artists using it.
 
-Particle systems are composed of **emitters**, with each emitter using a **texture** or **material** as the base for a particle. To modify the properties of these particles, each emitter can have a set of **add-ons**.
+Particle systems are composed of [**emitters**](https://github.com/TheCenturiaGames/Sobrassada_Engine/blob/main/SobrassadaEngine/Utils/Particles/ParticleEmitter.h), with each emitter using a **texture** or **material** as the base for a particle. To modify the properties of these particles, each emitter can have a set of **add-ons**.
 
 The available add-ons are:
 

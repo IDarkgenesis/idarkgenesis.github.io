@@ -3,6 +3,7 @@ layout: post
 title: Initial engine set-up & framebuffers
 date: 2025-12-03 09:56 +0100
 categories: [Projects, Sobrassada Engine]
+tags: [c++, engine] 
 ---
 
 The primary goal was to develop the core engine project, incorporating feedback from the second assignment. To support multiple viewports in the engine and facilitate future rendering effects and techniques, we needed to implement framebuffers.

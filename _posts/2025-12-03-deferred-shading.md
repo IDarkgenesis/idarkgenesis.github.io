@@ -3,6 +3,7 @@ layout: post
 title: Deferred shading
 date: 2025-12-03 18:53 +0100
 categories: [Projects, Sobrassada Engine]
+tags: [c++, engine, opengl, rendering] 
 ---
 
 **Deferred shading** is a rendering technique that optimizes the process by first rendering all texture and material data into separate buffers, and then performing a single lighting pass using the information from those buffers.

@@ -3,6 +3,7 @@ layout: post
 title: Billboards
 date: 2025-12-03 21:05 +0100
 categories: [Projects, Sobrassada Engine]
+tags: [c++, engine, opengl, rendering] 
 ---
 
 The main use of **billboards** is to provide an efficient way of rendering multiple planes with **textures**, such as **vegetation**. This also includes the ability to render **sprite sheet animations**, for example, a **fire** or a **dust cloud**. Additionally, **UV coordinates** can be modified to render only a specific part of a texture.

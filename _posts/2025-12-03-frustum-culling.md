@@ -3,6 +3,7 @@ layout: post
 title: Frustum culling
 date: 2025-12-03 16:28 +0100
 categories: [Projects, Sobrassada Engine]
+tags: [c++, engine, rendering]
 ---
 
 The goal of this task was to implement frustum culling for rendering objects, ensuring that only the objects within the camera's frustum/view are rendered.
