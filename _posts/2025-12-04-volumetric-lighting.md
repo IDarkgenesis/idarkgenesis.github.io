@@ -2,6 +2,7 @@
 layout: post
 title: Volumetric lighting
 date: 2025-12-04 10:20 +0100
+categories: [Projects, Sobrassada Engine]
 tags: [engine, opengl, rendering]
 ---
 
@@ -26,8 +27,3 @@ For even greater control over the appearance of the volumetrics, each spotlight 
 Another key **performance optimization** is that we calculate the intersection of the **camera ray** with the **light cones**. By doing this, we can limit the volumetric lighting calculations to only the portion of the scene within the start and finish points of the ray’s intersection, significantly improving performance by reducing unnecessary computations outside of the relevant area.
 
 Other optimizations include calculating an **AABB** (Axis-Aligned Bounding Box) for the spotlight frustum and using it to **cull** volumetrics that are not visible to the camera. Lastly, we optimized spotlight shadow map rendering by rendering it **only once** for certain spotlights. Since some spotlights don’t interact with moving objects, we can render the shadow map on the first frame and reuse it for subsequent frames.
-
-
-
-
-

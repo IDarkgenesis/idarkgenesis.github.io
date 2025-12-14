@@ -2,6 +2,7 @@
 layout: post
 title: Bugfixing & small improvements
 date: 2025-12-04 12:50 +0100
+categories: [Projects, Sobrassada Engine]
 tags: [c++, engine] 
 ---
 
